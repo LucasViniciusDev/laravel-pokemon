@@ -1,0 +1,32 @@
+@import "./variables";
+@import "~bootstrap/scss/bootstrap";
+
+.my-primary {
+    background-color: var(--my_primary) !important;
+}
+
+.table tbody tr:hover {
+    background-color: #11bd36 !important;
+    color: #fff !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #d6d6d6;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
