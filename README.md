@@ -36,6 +36,8 @@ Com as dependências instaladas, você precisará configurar as suas variaveis d
 php artisan key:generate
 ```
 
+As variaveis de ambiente sempre são carregas ao iniciar o servidor, caso tenha alguma alteração é necessário reiniciar o serviço.
+
 Depois configure o **APP_URL** do seu servidor, por padrão é http://localhost:8000
 
 Como usar
