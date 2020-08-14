@@ -63,6 +63,10 @@ Para iniciar o servidor local utilize o comando:
 php artisan serve
 ```
 
+Documentação da API
+------
+https://documenter.getpostman.com/view/7272792/T1LPDSCF?version=latest
+
 Imagens
 ------
 
