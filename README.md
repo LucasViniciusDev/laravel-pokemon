@@ -47,7 +47,7 @@ Utilizando as view: **host:port/pokemons**
 
 Utilizando a API:   **host:port/api/pokemons**
 
-Por padrão, tanto nas views como na API, retornará 10 registros, porém você pode configurar isso nas variavéis de ambiente, basta criar uma nova chave com o valor desejado, como é mostrado abaixo:
+Por padrão, tanto nas views como na API, retornará 10 registros por página, porém você pode configurar isso nas variavéis de ambiente, basta criar uma nova chave com o valor desejado, como é mostrado abaixo:
 ```bash
 POKEMON_LIMIT_PER_PAGE=20
 ```
